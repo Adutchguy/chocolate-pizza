@@ -5,17 +5,81 @@ body{
 
 header {
   width: 100%;
-  display: block;
+  height: 25%;
+  outline: 1px dotted red;
+  overflow: auto;
 }
-
-nav{
-  width:100%;
-  display: block;
-}
-
 .mainTitle {
   display: block;
-  width: 10%;
-  top: 0px;
+  width: 40%;
+  float: left;
+  outline: 1px dotted red;
+}
+#forkAndKnife {
+  float: left;
+  clear: left;
+  width: 12%;
+  /*outline: 1px dotted red;*/
+}
 
+#title {
+outline: 1px dotted red;
+margin: 0;
+margin-left: 2px;
+font-size: 3vw;
+font-family: 'Pacifico', cursive;
+}
+.mainTitle #subTitle {
+  /*outline: 1px dotted red;*/
+  margin-top: 0px;
+  margin-left: 1px;
+  font-size: 1vw;
+  margin-left: 2px;
+  font-family: 'Slabo', serif;
+}
+.icons {
+  float: right;
+  outline: 1px dotted red;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.margin {
+  margin-left: 10px;
+}
+.headerLine {
+
+}
+
+.mainContentContainer {
+  width: 100%;
+}
+.chocPizza {
+  width: 100%;
+}
+#chocPizzaDiv{
+  position: relative;
+  margin-bottom: 4%;
+}
+#chocPizzah1 {
+font-size: 4vw;
+font-family: 'Fjalla One', sans-serif;
+letter-spacing: -.1vw;
+margin: 10% 0 1% 0;
+}
+#chocPizzaSub {
+font-family: 'Slabo', serif;
+opacity: 0.5;
+letter-spacing: -.04vw;
+margin: 0;
+}
+#print {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  opacity: .5;
+}
+.pizzaImg {
+  width: 100%;
 }
