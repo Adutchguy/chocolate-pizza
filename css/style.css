@@ -1,0 +1,21 @@
+body{
+  width: 80%;
+  margin:auto;
+}
+
+header {
+  width: 100%;
+  display: block;
+}
+
+nav{
+  width:100%;
+  display: block;
+}
+
+.mainTitle {
+  display: block;
+  width: 10%;
+  top: 0px;
+
+}
